@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>途虎智能客服对话审查与洞察报告</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v6/echarts.min.js"></script>
+
+    
+</head>
+<body >
+    <style>.box {  } </style>
+    <div class="box">
+                <div id="36f98b8ddb914628a04b791b7ef66686" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_36f98b8ddb914628a04b791b7ef66686 = echarts.init(
+            document.getElementById('36f98b8ddb914628a04b791b7ef66686'), 'white', {renderer: 'canvas', locale: 'ZH'});
+        var option_36f98b8ddb914628a04b791b7ef66686 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "series": [
+        {
+            "type": "bar",
+            "name": "\u6b21\u6570",
+            "xAxisIndex": 0,
+            "yAxisIndex": 0,
+            "legendHoverLink": true,
+            "data": [
+                19,
+                13,
+                3,
+                3,
+                2,
+                1
+            ],
+            "realtimeSort": false,
+            "showBackground": false,
+            "stackStrategy": "samesign",
+            "cursor": "pointer",
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "margin": 8,
+                "richInheritPlainLabel": true,
+                "valueAnimation": false
+            }
+        },
+        {
+            "type": "pie",
+            "colorBy": "data",
+            "legendHoverLink": true,
+            "selectedMode": false,
+            "selectedOffset": 10,
+            "clockwise": true,
+            "startAngle": 90,
+            "minAngle": 0,
+            "minShowLabelAngle": 0,
+            "avoidLabelOverlap": true,
+            "stillShowZeroSum": true,
+            "percentPrecision": 2,
+            "showEmptyCircle": true,
+            "emptyCircleStyle": {
+                "color": "lightgray",
+                "borderColor": "#000",
+                "borderWidth": 0,
+                "borderType": "solid",
+                "borderDashOffset": 0,
+                "borderCap": "butt",
+                "borderJoin": "bevel",
+                "borderMiterLimit": 10,
+                "opacity": 1
+            },
+            "data": [
+                {
+                    "name": "\u542b <tools> \u6807\u7b7e\u884c\u6570",
+                    "value": 41
+                }
+            ],
+            "radius": [
+                "35%",
+                "65%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "margin": 8,
+                "formatter": "{b}: {c} ({d}%)",
+                "richInheritPlainLabel": true,
+                "valueAnimation": false
+            },
+            "labelLine": {
+                "show": true,
+                "showAbove": false,
+                "length": 15,
+                "length2": 15,
+                "smooth": false,
+                "minTurnAngle": 90,
+                "maxSurfaceAngle": 90
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "xAxisIndex": 1,
+            "yAxisIndex": 1
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u6b21\u6570"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10,
+            "triggerEvent": false
+        },
+        {
+            "data": [
+                "\u542b <tools> \u6807\u7b7e\u884c\u6570"
+            ],
+            "selected": {},
+            "show": true,
+            "right": "5%",
+            "top": "20%",
+            "orient": "vertical",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10,
+            "triggerEvent": false
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "displayTransition": true,
+        "textStyle": {
+            "fontSize": 14,
+            "richInheritPlainLabel": true
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "nameTruncate": {},
+            "nameMoveOverlap": true,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "rotate": 30,
+                "margin": 8,
+                "richInheritPlainLabel": true,
+                "valueAnimation": false
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "silent": false,
+            "triggerEvent": false,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": false
+                }
+            },
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0,
+            "data": [
+                "get_baoyang_recommend_pids",
+                "get_baoyang_price_promotion_stock_logistics",
+                "get_baoyang_product_info",
+                "get_baoyang_period",
+                "get_baoyang_usage",
+                "get_baoyang_recommend_shops"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "nameTruncate": {},
+            "nameMoveOverlap": true,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "silent": false,
+            "triggerEvent": false,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": false
+                }
+            },
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0
+        }
+    ],
+    "title": [
+        {
+            "show": true,
+            "text": "\u5de5\u5177\u8c03\u7528\u6b21\u6570\u5206\u5e03\uff08Task 1\uff09",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        },
+        {
+            "show": true,
+            "text": "\u542b <tools> \u884c / \u603b\u884c\u6570 \u6982\u89c8",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ],
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "showDetail": true,
+            "showDataShadow": true,
+            "realtime": true,
+            "start": 20,
+            "end": 80,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "filterMode": "filter"
+        }
+    ],
+    "grid": [
+        {
+            "show": false,
+            "zlevel": 0,
+            "z": 2,
+            "bottom": "55%",
+            "containLabel": false,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "shadowOffsetX": 0,
+            "shadowOffsetY": 0
+        },
+        {
+            "show": false,
+            "zlevel": 0,
+            "z": 2,
+            "top": "55%",
+            "containLabel": false,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "shadowOffsetX": 0,
+            "shadowOffsetY": 0
+        }
+    ]
+};
+        chart_36f98b8ddb914628a04b791b7ef66686.setOption(option_36f98b8ddb914628a04b791b7ef66686);
+    </script>
+<br/>                <div id="85922d57abbf416abbed360bdc41e851" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_85922d57abbf416abbed360bdc41e851 = echarts.init(
+            document.getElementById('85922d57abbf416abbed360bdc41e851'), 'white', {renderer: 'canvas', locale: 'ZH'});
+        var option_85922d57abbf416abbed360bdc41e851 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "series": [
+        {
+            "type": "pie",
+            "colorBy": "data",
+            "legendHoverLink": true,
+            "selectedMode": false,
+            "selectedOffset": 10,
+            "clockwise": true,
+            "startAngle": 90,
+            "minAngle": 0,
+            "minShowLabelAngle": 0,
+            "avoidLabelOverlap": true,
+            "stillShowZeroSum": true,
+            "percentPrecision": 2,
+            "showEmptyCircle": true,
+            "emptyCircleStyle": {
+                "color": "lightgray",
+                "borderColor": "#000",
+                "borderWidth": 0,
+                "borderType": "solid",
+                "borderDashOffset": 0,
+                "borderCap": "butt",
+                "borderJoin": "bevel",
+                "borderMiterLimit": 10,
+                "opacity": 1
+            },
+            "data": [
+                {
+                    "name": "\u5408\u7406",
+                    "value": 13
+                },
+                {
+                    "name": "\u4e0d\u5408\u7406",
+                    "value": 3
+                }
+            ],
+            "radius": [
+                "35%",
+                "65%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "margin": 8,
+                "formatter": "{b}: {c} ({d}%)",
+                "richInheritPlainLabel": true,
+                "valueAnimation": false
+            },
+            "labelLine": {
+                "show": true,
+                "showAbove": false,
+                "length": 15,
+                "length2": 15,
+                "smooth": false,
+                "minTurnAngle": 90,
+                "maxSurfaceAngle": 90
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "xAxisIndex": 0,
+            "yAxisIndex": 0
+        },
+        {
+            "type": "pie",
+            "colorBy": "data",
+            "legendHoverLink": true,
+            "selectedMode": false,
+            "selectedOffset": 10,
+            "clockwise": true,
+            "startAngle": 90,
+            "minAngle": 0,
+            "minShowLabelAngle": 0,
+            "avoidLabelOverlap": true,
+            "stillShowZeroSum": true,
+            "percentPrecision": 2,
+            "showEmptyCircle": true,
+            "emptyCircleStyle": {
+                "color": "lightgray",
+                "borderColor": "#000",
+                "borderWidth": 0,
+                "borderType": "solid",
+                "borderDashOffset": 0,
+                "borderCap": "butt",
+                "borderJoin": "bevel",
+                "borderMiterLimit": 10,
+                "opacity": 1
+            },
+            "data": [
+                {
+                    "name": "\u5408\u7406",
+                    "value": 4
+                },
+                {
+                    "name": "\u4e0d\u5408\u7406",
+                    "value": 12
+                }
+            ],
+            "radius": [
+                "35%",
+                "65%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "margin": 8,
+                "formatter": "{b}: {c} ({d}%)",
+                "richInheritPlainLabel": true,
+                "valueAnimation": false
+            },
+            "labelLine": {
+                "show": true,
+                "showAbove": false,
+                "length": 15,
+                "length2": 15,
+                "smooth": false,
+                "minTurnAngle": 90,
+                "maxSurfaceAngle": 90
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "xAxisIndex": 1,
+            "yAxisIndex": 1
+        },
+        {
+            "type": "pie",
+            "colorBy": "data",
+            "legendHoverLink": true,
+            "selectedMode": false,
+            "selectedOffset": 10,
+            "clockwise": true,
+            "startAngle": 90,
+            "minAngle": 0,
+            "minShowLabelAngle": 0,
+            "avoidLabelOverlap": true,
+            "stillShowZeroSum": true,
+            "percentPrecision": 2,
+            "showEmptyCircle": true,
+            "emptyCircleStyle": {
+                "color": "lightgray",
+                "borderColor": "#000",
+                "borderWidth": 0,
+                "borderType": "solid",
+                "borderDashOffset": 0,
+                "borderCap": "butt",
+                "borderJoin": "bevel",
+                "borderMiterLimit": 10,
+                "opacity": 1
+            },
+            "data": [
+                {
+                    "name": "\u914d\u4ef6\u9002\u914d\u7c7b",
+                    "value": 4
+                },
+                {
+                    "name": "\u4fdd\u517b\u7c7b",
+                    "value": 4
+                },
+                {
+                    "name": "\u673a\u6cb9\u7c7b",
+                    "value": 4
+                },
+                {
+                    "name": "\u6d3b\u52a8\u4ef7\u683c\u7c7b",
+                    "value": 2
+                },
+                {
+                    "name": "\u95e8\u5e97\u670d\u52a1\u7c7b",
+                    "value": 2
+                }
+            ],
+            "radius": [
+                "35%",
+                "65%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "margin": 8,
+                "formatter": "{b}: {c} ({d}%)",
+                "richInheritPlainLabel": true,
+                "valueAnimation": false
+            },
+            "labelLine": {
+                "show": true,
+                "showAbove": false,
+                "length": 15,
+                "length2": 15,
+                "smooth": false,
+                "minTurnAngle": 90,
+                "maxSurfaceAngle": 90
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "xAxisIndex": 2,
+            "yAxisIndex": 2
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u5408\u7406",
+                "\u4e0d\u5408\u7406"
+            ],
+            "selected": {},
+            "show": true,
+            "right": "5%",
+            "top": "20%",
+            "orient": "vertical",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10,
+            "triggerEvent": false
+        },
+        {
+            "data": [
+                "\u5408\u7406",
+                "\u4e0d\u5408\u7406"
+            ],
+            "selected": {},
+            "show": true,
+            "right": "5%",
+            "top": "20%",
+            "orient": "vertical",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10,
+            "triggerEvent": false
+        },
+        {
+            "data": [
+                "\u914d\u4ef6\u9002\u914d\u7c7b",
+                "\u4fdd\u517b\u7c7b",
+                "\u673a\u6cb9\u7c7b",
+                "\u6d3b\u52a8\u4ef7\u683c\u7c7b",
+                "\u95e8\u5e97\u670d\u52a1\u7c7b"
+            ],
+            "selected": {},
+            "show": true,
+            "right": "5%",
+            "top": "20%",
+            "orient": "vertical",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10,
+            "triggerEvent": false
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "displayTransition": true,
+        "textStyle": {
+            "fontSize": 14,
+            "richInheritPlainLabel": true
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "\u91cd\u5199\u5408\u7406\u6027\u5206\u5e03\uff08rewrite_issue\uff09",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        },
+        {
+            "show": true,
+            "text": "\u56de\u7b54\u5408\u7406\u6027\u5206\u5e03\uff08answer_issue\uff09",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        },
+        {
+            "show": true,
+            "text": "\u95ee\u9898\u7c7b\u522b\u5206\u5e03\uff08category\uff09",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ],
+    "grid": [
+        {
+            "show": false,
+            "zlevel": 0,
+            "z": 2,
+            "left": "0%",
+            "right": "66%",
+            "containLabel": false,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "shadowOffsetX": 0,
+            "shadowOffsetY": 0
+        },
+        {
+            "show": false,
+            "zlevel": 0,
+            "z": 2,
+            "left": "33%",
+            "right": "33%",
+            "containLabel": false,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "shadowOffsetX": 0,
+            "shadowOffsetY": 0
+        },
+        {
+            "show": false,
+            "zlevel": 0,
+            "z": 2,
+            "left": "66%",
+            "right": "0%",
+            "containLabel": false,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "shadowOffsetX": 0,
+            "shadowOffsetY": 0
+        }
+    ]
+};
+        chart_85922d57abbf416abbed360bdc41e851.setOption(option_85922d57abbf416abbed360bdc41e851);
+    </script>
+<br/>                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="af77f12ce7234036ab341c81ff4377a3" class="chart-container" style="">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > 典型问题 Session 列表（需要重点优化）</p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th>UserID</th>
+            <th>SessionID</th>
+            <th>类别</th>
+            <th>重写问题评价</th>
+            <th>回答评价</th>
+            <th>修改建议</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>b9b40700-346b-4f25-abd8-838269a07eb0</td>
+            <td>439757192</td>
+            <td>机油类</td>
+            <td>不合理</td>
+            <td>不合理</td>
+            <td>rewrite_query错误地将用户模糊表述‘说要VW50200的 没有GPF’强行绑定到‘奥迪A4L DKU发动机’，但原始问题中未出现任何车型、发动机型号信息，属于无依据强假设；bot_answer为&#x27;nan&#x27;属严重响应缺失，应至少澄清需求或引导补充车辆信息。</td>
+        </tr>
+        <tr>
+            <td>da3c65dd-0e1d-40ff-8f53-ec2d500c4310</td>
+            <td>439757027</td>
+            <td>活动价格类</td>
+            <td>合理</td>
+            <td>不合理</td>
+            <td>rewrite未改变用户意图，合理；但bot_answer三次均未直接解释‘送华为Pad’是何种活动、适用条件（如指定商品/时段/订单金额）、是否需额外领取或核销，且第二次回答‘整点下单活动赠品’缺乏上下文支撑（对话中未提及时段），第三次推诿至详情页，未履行客服主动释疑职责。建议统一回答：明确说明该赠品为当前限时活动（例：X月X日-X月X日）购买指定保养套餐/轮胎满XX元赠送，Pad型号为华为MatePad SE等具体信息，并提示以页面实时展示为准。</td>
+        </tr>
+        <tr>
+            <td>fa1c882a-d604-448e-bb26-f42c388a6b8e</td>
+            <td>439758356</td>
+            <td>机油类</td>
+            <td>不合理</td>
+            <td>不合理</td>
+            <td>rewrite应结合上下文明确‘这个机油’具体指代哪款商品（如商品ID或名称），避免歧义；answer应基于用户绑定车辆及所选机油实际规格（如API等级、粘度、是否全合成）给出精准更换周期，而非泛泛而谈三类机油标准，且需说明依据（如厂家建议/途虎推荐），避免前后回答自相矛盾。</td>
+        </tr>
+        <tr>
+            <td>feb76780-4975-46fc-aa04-be1be5996d0f</td>
+            <td>439810277</td>
+            <td>保养类</td>
+            <td>合理</td>
+            <td>不合理</td>
+            <td>rewrite准确表达了用户从套餐转向仅购1升机油的意图；但bot_answer在第2轮仅解释套餐包含内容，未回应用户核心疑问‘单独买1升机油45.08元 vs 套餐中机油折算价55元的区别’，也未在第3轮对‘只要一升机油’给出明确购买路径（如商品链接、是否可单购、是否含安装等），应补充说明价格差异原因（如套餐中机油为专配渠道价/含服务打包溢价）及单购选项。</td>
+        </tr>
+        <tr>
+            <td>6e181905-0da3-4d23-b986-55ee803cb64c</td>
+            <td>439715353</td>
+            <td>门店服务类</td>
+            <td>合理</td>
+            <td>不合理</td>
+            <td>rewrite准确保留了用户核心意图；但answer未区分‘购买’是否已完成——用户问的是‘当天购买当天能否使用’，应聚焦时效性承诺：若商品有现货且门店支持当日安装（如部分轮胎/保养套餐），可明确告知‘符合条件可当日安装’；若需物流配送，则需说明‘通常需1-3个工作日到店，无法保证当日使用’。当前回答模糊、回避关键时效判断，易引发用户误解。</td>
+        </tr>
+        <tr>
+            <td>468fbdc2-6f7f-483b-a1e5-8ce5da376536</td>
+            <td>439811460</td>
+            <td>保养类</td>
+            <td>合理</td>
+            <td>不合理</td>
+            <td>rewrite语义准确，无问题；但answer在第2轮应聚焦回答‘包含什么’这一核心问题，却直接跳转到具体商品链接和价格，未先明确说明标准项目（机油+机滤）及是否含检查/添加等基础服务；第3轮回答完全偏离问题，将‘包含什么’误解为‘能否马上做’，缺乏对用户原始意图的持续理解，应统一围绕保养项目组成作清晰、分层说明（基础项目+可选增项+价格说明）</td>
+        </tr>
+        <tr>
+            <td>945db2df-a63d-41cf-80fa-0222561009dc</td>
+            <td>439824457</td>
+            <td>配件适配类</td>
+            <td>合理</td>
+            <td>不合理</td>
+            <td>rewrite将&#x27;刹片&#x27;规范为&#x27;刹车片&#x27;符合术语习惯，合理；但bot_answer在第1轮错误推荐前刹车片，与用户明确询问&#x27;后刹片&#x27;矛盾；第2轮答非所问，未回应有无；第3轮虽给出否定结论，但未说明适配车型、未提供替代方案或引导确认VIN/车系，服务体验差。建议统一在首轮即准确响应&#x27;暂无适配您车辆的力仕达后刹车片&#x27;，并补充可选替代品牌或引导提交车型信息进一步查询。</td>
+        </tr>
+        <tr>
+            <td>8c643a76-e8e1-4642-ad7b-759e5d4f693f</td>
+            <td>439695089</td>
+            <td>活动价格类</td>
+            <td>合理</td>
+            <td>不合理</td>
+            <td>rewrite准确捕捉用户核心意图（退卡是否享受新活动价）；但bot_answer在第二轮未回应‘新活动价’这一关键诉求，仅说明退款规则，回避了用户对价格优惠的疑问，应补充说明退款按原支付价执行、不因新活动调整，或引导查看当前活动权益。</td>
+        </tr>
+        <tr>
+            <td>bc9c19be-e910-434b-a9c1-07879d6fb857</td>
+            <td>439694418</td>
+            <td>门店服务类</td>
+            <td>不合理</td>
+            <td>不合理</td>
+            <td>rewrite_query未补全用户意图，&#x27;然后营口附近&#x27;语义不完整，应结合上下文推测可能为查找营口附近的途虎养车门店或服务网点，需重写为&#x27;查找营口附近的途虎养车门店&#x27;；bot_answer返回&#x27;nan&#x27;属于系统异常，应至少给出引导性回复如&#x27;请问您是想查找营口附近的途虎养车店吗？&#x27;或触发地理位置确认流程。</td>
+        </tr>
+        <tr>
+            <td>7c4068f5-9556-4d4a-8170-d892975b2b1f</td>
+            <td>439690771</td>
+            <td>机油类</td>
+            <td>合理</td>
+            <td>不合理</td>
+            <td>rewrite合理，准确聚焦商品和时效诉求；但bot_answer在三次回复中逻辑矛盾：第一次称‘下单后配送到店就能预约安装’，第二次称‘今天下单明天送达’，第三次又建议‘致电确认工位’，未统一说明‘今天能否换’的核心问题。应明确告知：若门店有现货且工位空闲，可今天换；否则需等货到+预约。需整合信息，给出确定性判断或分条件说明。</td>
+        </tr>
+        <tr>
+            <td>562d5607-8e12-4631-969b-4d0c60980844</td>
+            <td>439775834</td>
+            <td>配件适配类</td>
+            <td>合理</td>
+            <td>不合理</td>
+            <td>rewrite准确捕捉用户对‘两次安装费’的疑虑，语义合理；但bot_answer前后矛盾（先说‘套餐含工时费’，又说‘无套餐’，最后又确认需付两次工时费），且未明确说明刹车盘更换是否必须与刹车片同步施工、能否合并计费，易引发用户困惑；应统一口径，明确告知当前商品形态（无套餐）、工时费收取规则（按项目/按轴收费），并主动提供优化建议（如推荐含工时的组合服务或门店咨询）</td>
+        </tr>
+        <tr>
+            <td>22563f6c-9894-4a97-b268-149a2fb293ba</td>
+            <td>439687503</td>
+            <td>配件适配类</td>
+            <td>合理</td>
+            <td>不合理</td>
+            <td>rewrite准确提取了用户拒绝的两个具体商品，合理；但bot_answer在第3轮声称‘只有这两款博世可选’，未回应用户‘都不行’的核心诉求（如适配性存疑、性能不满足、安装问题等），且未提供替代方案或进一步确认原因（如是否因车型年款/制动系统特殊导致不适配），应改为主动询问用户具体问题并核查适配规则或推荐其他品牌/型号。</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+<br/>    </div>
+    <script>
+            document.body.insertAdjacentHTML('afterbegin', '\n    <div style="padding:16px 24px;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;">\n      <h2>途虎智能客服对话审查与洞察报告</h2>\n      <p>本报告基于离线对话数据与大模型审查结果自动生成，用于帮助产品经理和运营同学快速发现智能客服在工具调用、问答重写与业务回复上的优化空间。</p>\n      <ul>\n        <li><b>原始数据总行数：</b>41</li>\n        <li><b>含 &lt;tools&gt; 标签行数：</b>41</li>\n        <li><b>聚合后的会话（Session）数量：</b>16</li>\n        <li><b>已审查的会话数量：</b>16</li>\n        <li><b>被标记为典型问题的会话数量：</b>12</li>\n      </ul>\n      <p style="color:#666;font-size:12px;">说明：图表为静态本地渲染，无需联网即可查看。若需进一步钻取，可结合 JSON 结果与原始日志进行人工复盘。</p>\n    </div>\n    ');
+    </script>
+</body>
+</html>

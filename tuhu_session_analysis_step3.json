@@ -1,0 +1,251 @@
+[
+  {
+    "user_id": "3cca89d9-dc9c-4f39-ba3f-ba14287c89fa",
+    "session_id": 439682263,
+    "row_indices": [
+      0,
+      1
+    ],
+    "llm_result": {
+      "rewrite_issue": "合理",
+      "answer_issue": "合理",
+      "category": "配件适配类",
+      "suggestion": "rewrite准确捕捉用户意图（前刹车片数量）；answer基于后台车型信息给出‘4片’结论符合行业常识（前轴双活塞卡钳通常配2片/侧，共4片），且未过度承诺适配，表述清晰。建议在首次回答中即提供具体数量，避免重复提问。",
+      "is_typical": true
+    }
+  },
+  {
+    "user_id": "0e4cd323-2279-4089-8577-7f1dd74bbb7b",
+    "session_id": 439729538,
+    "row_indices": [
+      5,
+      6,
+      7
+    ],
+    "llm_result": {
+      "rewrite_issue": "合理",
+      "answer_issue": "合理",
+      "category": "保养类",
+      "suggestion": "rewrite保持原意，未丢失关键信息；answer在已知用户车型（奔驰E300L）、车龄、地域（济南）及使用场景下，结合认证标准（325.3）、性能参数（冰点/沸点）和价格服务信息给出具体推荐，符合业务常识且具针对性；建议第三轮回答可补充说明‘该套餐已校验适配您当前绑定的E300L车型’以增强可信度。",
+      "is_typical": true
+    }
+  },
+  {
+    "user_id": "b9b40700-346b-4f25-abd8-838269a07eb0",
+    "session_id": 439757192,
+    "row_indices": [
+      8
+    ],
+    "llm_result": {
+      "rewrite_issue": "不合理",
+      "answer_issue": "不合理",
+      "category": "机油类",
+      "suggestion": "rewrite_query错误地将用户模糊表述‘说要VW50200的 没有GPF’强行绑定到‘奥迪A4L DKU发动机’，但原始问题中未出现任何车型、发动机型号信息，属于无依据强假设；bot_answer为'nan'属严重响应缺失，应至少澄清需求或引导补充车辆信息。",
+      "is_typical": true
+    }
+  },
+  {
+    "user_id": "744bf04a-a35d-41f3-b9f8-c50674fb525b",
+    "session_id": 439729045,
+    "row_indices": [
+      2,
+      3,
+      4
+    ],
+    "llm_result": {
+      "rewrite_issue": "合理",
+      "answer_issue": "合理",
+      "category": "机油类",
+      "suggestion": "rewrite准确还原用户对‘主机厂认证’的询问意图；answer逐轮递进补充具体认证标准（捷豹路虎、奔驰、福特），信息专业且可信，符合机油产品常见原厂认证场景。建议第三轮可补充一句‘覆盖您爱车适配的主流原厂标准’以强化与用户车辆的关联性。",
+      "is_typical": true
+    }
+  },
+  {
+    "user_id": "da3c65dd-0e1d-40ff-8f53-ec2d500c4310",
+    "session_id": 439757027,
+    "row_indices": [
+      9,
+      10,
+      11
+    ],
+    "llm_result": {
+      "rewrite_issue": "合理",
+      "answer_issue": "不合理",
+      "category": "活动价格类",
+      "suggestion": "rewrite未改变用户意图，合理；但bot_answer三次均未直接解释‘送华为Pad’是何种活动、适用条件（如指定商品/时段/订单金额）、是否需额外领取或核销，且第二次回答‘整点下单活动赠品’缺乏上下文支撑（对话中未提及时段），第三次推诿至详情页，未履行客服主动释疑职责。建议统一回答：明确说明该赠品为当前限时活动（例：X月X日-X月X日）购买指定保养套餐/轮胎满XX元赠送，Pad型号为华为MatePad SE等具体信息，并提示以页面实时展示为准。",
+      "is_typical": true
+    }
+  },
+  {
+    "user_id": "fa1c882a-d604-448e-bb26-f42c388a6b8e",
+    "session_id": 439758356,
+    "row_indices": [
+      12,
+      13,
+      14
+    ],
+    "llm_result": {
+      "rewrite_issue": "不合理",
+      "answer_issue": "不合理",
+      "category": "机油类",
+      "suggestion": "rewrite应结合上下文明确‘这个机油’具体指代哪款商品（如商品ID或名称），避免歧义；answer应基于用户绑定车辆及所选机油实际规格（如API等级、粘度、是否全合成）给出精准更换周期，而非泛泛而谈三类机油标准，且需说明依据（如厂家建议/途虎推荐），避免前后回答自相矛盾。",
+      "is_typical": true
+    }
+  },
+  {
+    "user_id": "feb76780-4975-46fc-aa04-be1be5996d0f",
+    "session_id": 439810277,
+    "row_indices": [
+      15,
+      16,
+      19
+    ],
+    "llm_result": {
+      "rewrite_issue": "合理",
+      "answer_issue": "不合理",
+      "category": "保养类",
+      "suggestion": "rewrite准确表达了用户从套餐转向仅购1升机油的意图；但bot_answer在第2轮仅解释套餐包含内容，未回应用户核心疑问‘单独买1升机油45.08元 vs 套餐中机油折算价55元的区别’，也未在第3轮对‘只要一升机油’给出明确购买路径（如商品链接、是否可单购、是否含安装等），应补充说明价格差异原因（如套餐中机油为专配渠道价/含服务打包溢价）及单购选项。",
+      "is_typical": true
+    }
+  },
+  {
+    "user_id": "6e181905-0da3-4d23-b986-55ee803cb64c",
+    "session_id": 439715353,
+    "row_indices": [
+      17,
+      18
+    ],
+    "llm_result": {
+      "rewrite_issue": "合理",
+      "answer_issue": "不合理",
+      "category": "门店服务类",
+      "suggestion": "rewrite准确保留了用户核心意图；但answer未区分‘购买’是否已完成——用户问的是‘当天购买当天能否使用’，应聚焦时效性承诺：若商品有现货且门店支持当日安装（如部分轮胎/保养套餐），可明确告知‘符合条件可当日安装’；若需物流配送，则需说明‘通常需1-3个工作日到店，无法保证当日使用’。当前回答模糊、回避关键时效判断，易引发用户误解。",
+      "is_typical": true
+    }
+  },
+  {
+    "user_id": "468fbdc2-6f7f-483b-a1e5-8ce5da376536",
+    "session_id": 439811460,
+    "row_indices": [
+      20,
+      21,
+      22
+    ],
+    "llm_result": {
+      "rewrite_issue": "合理",
+      "answer_issue": "不合理",
+      "category": "保养类",
+      "suggestion": "rewrite语义准确，无问题；但answer在第2轮应聚焦回答‘包含什么’这一核心问题，却直接跳转到具体商品链接和价格，未先明确说明标准项目（机油+机滤）及是否含检查/添加等基础服务；第3轮回答完全偏离问题，将‘包含什么’误解为‘能否马上做’，缺乏对用户原始意图的持续理解，应统一围绕保养项目组成作清晰、分层说明（基础项目+可选增项+价格说明）",
+      "is_typical": true
+    }
+  },
+  {
+    "user_id": "945db2df-a63d-41cf-80fa-0222561009dc",
+    "session_id": 439824457,
+    "row_indices": [
+      23,
+      24,
+      25
+    ],
+    "llm_result": {
+      "rewrite_issue": "合理",
+      "answer_issue": "不合理",
+      "category": "配件适配类",
+      "suggestion": "rewrite将'刹片'规范为'刹车片'符合术语习惯，合理；但bot_answer在第1轮错误推荐前刹车片，与用户明确询问'后刹片'矛盾；第2轮答非所问，未回应有无；第3轮虽给出否定结论，但未说明适配车型、未提供替代方案或引导确认VIN/车系，服务体验差。建议统一在首轮即准确响应'暂无适配您车辆的力仕达后刹车片'，并补充可选替代品牌或引导提交车型信息进一步查询。",
+      "is_typical": true
+    }
+  },
+  {
+    "user_id": "8c643a76-e8e1-4642-ad7b-759e5d4f693f",
+    "session_id": 439695089,
+    "row_indices": [
+      26,
+      27
+    ],
+    "llm_result": {
+      "rewrite_issue": "合理",
+      "answer_issue": "不合理",
+      "category": "活动价格类",
+      "suggestion": "rewrite准确捕捉用户核心意图（退卡是否享受新活动价）；但bot_answer在第二轮未回应‘新活动价’这一关键诉求，仅说明退款规则，回避了用户对价格优惠的疑问，应补充说明退款按原支付价执行、不因新活动调整，或引导查看当前活动权益。",
+      "is_typical": true
+    }
+  },
+  {
+    "user_id": "bc9c19be-e910-434b-a9c1-07879d6fb857",
+    "session_id": 439694418,
+    "row_indices": [
+      28
+    ],
+    "llm_result": {
+      "rewrite_issue": "不合理",
+      "answer_issue": "不合理",
+      "category": "门店服务类",
+      "suggestion": "rewrite_query未补全用户意图，'然后营口附近'语义不完整，应结合上下文推测可能为查找营口附近的途虎养车门店或服务网点，需重写为'查找营口附近的途虎养车门店'；bot_answer返回'nan'属于系统异常，应至少给出引导性回复如'请问您是想查找营口附近的途虎养车店吗？'或触发地理位置确认流程。",
+      "is_typical": true
+    }
+  },
+  {
+    "user_id": "5309a680-86af-49a3-9be7-2bfe2d1b5f46",
+    "session_id": 439776614,
+    "row_indices": [
+      35,
+      36,
+      37
+    ],
+    "llm_result": {
+      "rewrite_issue": "合理",
+      "answer_issue": "合理",
+      "category": "保养类",
+      "suggestion": "rewrite准确捕捉用户核心意图（是否需额外换离合油）；answer符合干式双离合技术常识——其离合器为风冷、无独立离合油路，仅需更换专用变速箱油，无需单独‘离合油’，回答简洁且正确。",
+      "is_typical": true
+    }
+  },
+  {
+    "user_id": "7c4068f5-9556-4d4a-8170-d892975b2b1f",
+    "session_id": 439690771,
+    "row_indices": [
+      29,
+      30,
+      31
+    ],
+    "llm_result": {
+      "rewrite_issue": "合理",
+      "answer_issue": "不合理",
+      "category": "机油类",
+      "suggestion": "rewrite合理，准确聚焦商品和时效诉求；但bot_answer在三次回复中逻辑矛盾：第一次称‘下单后配送到店就能预约安装’，第二次称‘今天下单明天送达’，第三次又建议‘致电确认工位’，未统一说明‘今天能否换’的核心问题。应明确告知：若门店有现货且工位空闲，可今天换；否则需等货到+预约。需整合信息，给出确定性判断或分条件说明。",
+      "is_typical": true
+    }
+  },
+  {
+    "user_id": "562d5607-8e12-4631-969b-4d0c60980844",
+    "session_id": 439775834,
+    "row_indices": [
+      32,
+      33,
+      34
+    ],
+    "llm_result": {
+      "rewrite_issue": "合理",
+      "answer_issue": "不合理",
+      "category": "配件适配类",
+      "suggestion": "rewrite准确捕捉用户对‘两次安装费’的疑虑，语义合理；但bot_answer前后矛盾（先说‘套餐含工时费’，又说‘无套餐’，最后又确认需付两次工时费），且未明确说明刹车盘更换是否必须与刹车片同步施工、能否合并计费，易引发用户困惑；应统一口径，明确告知当前商品形态（无套餐）、工时费收取规则（按项目/按轴收费），并主动提供优化建议（如推荐含工时的组合服务或门店咨询）",
+      "is_typical": true
+    }
+  },
+  {
+    "user_id": "22563f6c-9894-4a97-b268-149a2fb293ba",
+    "session_id": 439687503,
+    "row_indices": [
+      38,
+      39,
+      40
+    ],
+    "llm_result": {
+      "rewrite_issue": "合理",
+      "answer_issue": "不合理",
+      "category": "配件适配类",
+      "suggestion": "rewrite准确提取了用户拒绝的两个具体商品，合理；但bot_answer在第3轮声称‘只有这两款博世可选’，未回应用户‘都不行’的核心诉求（如适配性存疑、性能不满足、安装问题等），且未提供替代方案或进一步确认原因（如是否因车型年款/制动系统特殊导致不适配），应改为主动询问用户具体问题并核查适配规则或推荐其他品牌/型号。",
+      "is_typical": true
+    }
+  }
+]

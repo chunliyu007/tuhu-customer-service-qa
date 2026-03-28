@@ -1,0 +1,97 @@
+[
+  {
+    "user_id": "3cca89d9-dc9c-4f39-ba3f-ba14287c89fa",
+    "session_id": 439682263,
+    "tool_names": [
+      "get_baoyang_usage"
+    ],
+    "mounted_expert_docx": "./aio_by_usage_prompt（AIO保养用量查询专家策略）.docx",
+    "mapping_best_score": 30,
+    "llm_result": {
+      "rewrite_issue": "合理",
+      "answer_issue": "不合理",
+      "primary_category": "刹车片",
+      "secondary_category": "用量咨询",
+      "prompt_defect_suspected": true,
+      "defect_reason": "疑似是【AIO保养用量查询专家策略】缺失对‘前/后’部位拆分用量的兜底处理机制：策略仅要求使用aio_by_usage_tool结果，但未规定当工具返回总用量（如‘4片’）而用户明确问‘前片’时，需结合汽车后市场常识主动拆分说明（前2片/后2片），导致客服直接复述总用量‘4片’，未回应用户对‘前’的精准诉求，违反Common Sense体验（用户明确限定‘前’，回答却给全车量）。",
+      "is_typical": true
+    },
+    "error": null
+  },
+  {
+    "user_id": "744bf04a-a35d-41f3-b9f8-c50674fb525b",
+    "session_id": 439729045,
+    "tool_names": [
+      "get_baoyang_product_info"
+    ],
+    "mounted_expert_docx": "./aio_by_product_info_prompt（AIO保养属性查询专家策略）.docx",
+    "mapping_best_score": 30,
+    "llm_result": {
+      "rewrite_issue": "合理",
+      "answer_issue": "合理",
+      "primary_category": "机油",
+      "secondary_category": "认证查询",
+      "prompt_defect_suspected": false,
+      "defect_reason": "",
+      "is_typical": true
+    },
+    "error": null
+  },
+  {
+    "user_id": "0e4cd323-2279-4089-8577-7f1dd74bbb7b",
+    "session_id": 439729538,
+    "tool_names": [
+      "get_baoyang_recommend_pids"
+    ],
+    "mounted_expert_docx": "./aio_app_by_recommend_item_prompt（AIO_app保养项目推荐专家策略）.docx",
+    "mapping_best_score": 30,
+    "llm_result": {
+      "rewrite_issue": "合理",
+      "answer_issue": "不合理",
+      "primary_category": "防冻液",
+      "secondary_category": "产品推荐",
+      "prompt_defect_suspected": true,
+      "defect_reason": "疑似是【AIO_app保养项目推荐专家策略】中‘单项目详细推荐’话术结构未被Answerer严格执行：策略要求‘为什么要换、不换的风险、推荐什么商品、商品好在哪里’四要素闭环，但客服在轮次2仅说明超期和风险（合理），轮次3虽给出商品参数但未建立‘-37℃冰点→应对济南严寒’的因果解释，且未呼应轮次2已指出的‘车龄15年+超期2年多’这一关键风险锚点，导致推荐逻辑断裂、专业感削弱；同时策略明确禁止在推荐中展示链接，但三轮回答均含套餐链接，违反最高优先级规则。",
+      "is_typical": true
+    },
+    "error": null
+  },
+  {
+    "user_id": "b9b40700-346b-4f25-abd8-838269a07eb0",
+    "session_id": 439757192,
+    "tool_names": [
+      "get_baoyang_recommend_pids"
+    ],
+    "mounted_expert_docx": "./aio_app_by_recommend_item_prompt（AIO_app保养项目推荐专家策略）.docx",
+    "mapping_best_score": 30,
+    "llm_result": {
+      "rewrite_issue": "合理",
+      "answer_issue": "不合理",
+      "primary_category": "机油",
+      "secondary_category": "产品推荐",
+      "prompt_defect_suspected": true,
+      "defect_reason": "疑似是专家策略文档 'aio_app保养项目推荐专家策略' 缺失对'VW50200认证且不含GPF'这一专业机油规格诉求的响应机制：策略未覆盖用户明确要求的认证标准（VW50200）与技术限制条件（无GPF）双重约束下的精准推荐逻辑，也未定义当用户提出发动机型号（DKU）+认证+排除项时应触发的适配校验或工具调用路径。",
+      "is_typical": true
+    },
+    "error": null
+  },
+  {
+    "user_id": "da3c65dd-0e1d-40ff-8f53-ec2d500c4310",
+    "session_id": 439757027,
+    "tool_names": [
+      "get_baoyang_recommend_pids"
+    ],
+    "mounted_expert_docx": "./aio_app_by_recommend_item_prompt（AIO_app保养项目推荐专家策略）.docx",
+    "mapping_best_score": 30,
+    "llm_result": {
+      "rewrite_issue": "合理",
+      "answer_issue": "不合理",
+      "primary_category": "活动",
+      "secondary_category": "赠品咨询",
+      "prompt_defect_suspected": true,
+      "defect_reason": "疑似是【人设2 Answerer】中关于活动赠品的业务规则缺失：未明确定义‘送华为Pad’类高价值实物赠品的答复口径，导致客服回避核心问题（是否真送、何时送、如何领取、是否需达标条件），仅用‘优惠券形式’‘详情页查看’等模糊话术敷衍；且三次重复回答未做任何升级或澄清，违反‘上文去重’和‘解决历史遗留问题’强制要求。",
+      "is_typical": true
+    },
+    "error": null
+  }
+]

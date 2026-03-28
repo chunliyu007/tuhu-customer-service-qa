@@ -1,0 +1,21 @@
+[
+  {
+    "user_id": "3cca89d9-dc9c-4f39-ba3f-ba14287c89fa",
+    "session_id": 439682263,
+    "tool_names": [
+      "get_baoyang_usage"
+    ],
+    "mounted_expert_docx": "./aio_by_usage_prompt（AIO保养用量查询专家策略）.docx",
+    "mapping_best_score": 30,
+    "llm_result": {
+      "rewrite_issue": "不合理",
+      "answer_issue": "不合理",
+      "primary_category": "其他",
+      "secondary_category": "错误结果",
+      "prompt_defect_suspected": false,
+      "defect_reason": "",
+      "is_typical": false
+    },
+    "error": null
+  }
+]

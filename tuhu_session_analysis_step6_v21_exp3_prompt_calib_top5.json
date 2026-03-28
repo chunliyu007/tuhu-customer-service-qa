@@ -1,0 +1,102 @@
+[
+  {
+    "user_id": "b9b40700-346b-4f25-abd8-838269a07eb0",
+    "session_id": 439757192,
+    "tool_names": [
+      "get_baoyang_recommend_pids"
+    ],
+    "mounted_expert_docx": "./aio_app_by_recommend_item_prompt（AIO_app保养项目推荐专家策略）.docx",
+    "mapping_best_score": 30,
+    "llm_result": {
+      "rewrite_issue": "不合理",
+      "answer_issue": "不合理",
+      "primary_category": "其他",
+      "secondary_category": "错误结果",
+      "prompt_defect_suspected": false,
+      "defect_reason": "",
+      "common_sense_reason": "JSON 解析失败或调用失败：请人工检查。",
+      "is_typical": false
+    },
+    "error": null
+  },
+  {
+    "user_id": "f0f921b4-3a37-4ddf-a11b-826439a26ddc",
+    "session_id": 439750897,
+    "tool_names": [
+      "query_baoyang_product_adapt"
+    ],
+    "mounted_expert_docx": "./aio_by_product_adapt_prompt（AIO保养适配查询专家策略）.docx",
+    "mapping_best_score": 30,
+    "llm_result": {
+      "rewrite_issue": "不合理",
+      "answer_issue": "不合理",
+      "primary_category": "其他",
+      "secondary_category": "错误结果",
+      "prompt_defect_suspected": false,
+      "defect_reason": "",
+      "common_sense_reason": "JSON 解析失败或调用失败：请人工检查。",
+      "is_typical": false
+    },
+    "error": null
+  },
+  {
+    "user_id": "a697dceb-f675-422a-9e2a-3cfab26ec390",
+    "session_id": 439751117,
+    "tool_names": [
+      "query_baoyang_product_adapt"
+    ],
+    "mounted_expert_docx": "./aio_by_product_adapt_prompt（AIO保养适配查询专家策略）.docx",
+    "mapping_best_score": 30,
+    "llm_result": {
+      "rewrite_issue": "不合理",
+      "answer_issue": "不合理",
+      "primary_category": "其他",
+      "secondary_category": "错误结果",
+      "prompt_defect_suspected": false,
+      "defect_reason": "",
+      "common_sense_reason": "JSON 解析失败或调用失败：请人工检查。",
+      "is_typical": false
+    },
+    "error": null
+  },
+  {
+    "user_id": "47063673-4faf-4458-95ea-ccd4253e134a",
+    "session_id": 439764230,
+    "tool_names": [
+      "get_baoyang_recommend_pids"
+    ],
+    "mounted_expert_docx": "./aio_app_by_recommend_item_prompt（AIO_app保养项目推荐专家策略）.docx",
+    "mapping_best_score": 30,
+    "llm_result": {
+      "rewrite_issue": "不合理",
+      "answer_issue": "不合理",
+      "primary_category": "其他",
+      "secondary_category": "错误结果",
+      "prompt_defect_suspected": false,
+      "defect_reason": "",
+      "common_sense_reason": "JSON 解析失败或调用失败：请人工检查。",
+      "is_typical": false
+    },
+    "error": null
+  },
+  {
+    "user_id": "837ee458-9f5a-4798-834c-0161e6c844c7",
+    "session_id": 439763774,
+    "tool_names": [
+      "query_baoyang_product_adapt"
+    ],
+    "mounted_expert_docx": "./aio_by_product_adapt_prompt（AIO保养适配查询专家策略）.docx",
+    "mapping_best_score": 30,
+    "llm_result": {
+      "rewrite_issue": "不合理",
+      "answer_issue": "不合理",
+      "primary_category": "其他",
+      "secondary_category": "错误结果",
+      "prompt_defect_suspected": false,
+      "defect_reason": "",
+      "common_sense_reason": "JSON 解析失败或调用失败：请人工检查。",
+      "is_typical": false
+    },
+    "error": null
+  }
+]
