@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>途虎智能客服质检分析工具</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            background: white;
+            border-radius: 20px;
+            padding: 60px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .subtitle {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+        .tools {
+            display: grid;
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .tool-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-decoration: none;
+            transition: transform 0.3s, box-shadow 0.3s;
+            display: block;
+        }
+        .tool-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+        .tool-card h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .tool-card p {
+            opacity: 0.9;
+            line-height: 1.5;
+        }
+        .icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚗 途虎智能客服质检分析工具</h1>
+        <p class="subtitle">
+            基于 Claude Sonnet 4.6 优化的智能客服对话质检系统<br>
+            支持上传自定义对话文件，自动识别问题并生成优化建议
+        </p>
+
+        <div class="tools">
+            <a href="upload-analyzer.html" class="tool-card">
+                <div class="icon">📤</div>
+                <h2>上传文件分析</h2>
+                <p>上传你自己的客服对话Excel文件，系统将自动识别5大类问题模式，包括死循环/重复提问、答非所问、零回复等，并提供详细的Session ID和优化建议</p>
+            </a>
+
+            <a href="index.html" class="tool-card">
+                <div class="icon">📊</div>
+                <h2>查看示例报告</h2>
+                <p>查看基于途虎智能客服0316数据的完整分析报告，包含636条对话的深度分析，559个问题案例的详细拆解</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
